@@ -47,7 +47,7 @@ def main():
 
         if not ret: # error or end of stream heck
             break
-
+        if frame is None: continue
         # detect the image
         img_det = detector.detect(frame)
 

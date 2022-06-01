@@ -12,9 +12,9 @@ Basic video object detection using OpenCV and a tiny yolo network.
 
 ## Run the detector 
  ```
- python3 Monitoring.py -i ./video_file.mp4 -s 
+ python3 detect_video.py -i ./video_file.mp4 -s 
  or
-  python3 Monitoring.py -i ./video_file.mp4 -s -c ./cfg/tiny-yolov4.cfg -w ./cfg/yolov4-tiny.weights -o video_det 
+  python3 detect_video.py -i ./video_file.mp4 -s -c ./cfg/tiny-yolov4.cfg -w ./cfg/yolov4-tiny.weights -o video_det 
  ```
  Options:
  - -i : input file or stream eg. "video_file.mp4" or "192.1.20.4/live"
